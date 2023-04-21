@@ -1,0 +1,21 @@
+pre.theme-okaidia code[class*="language-"], pre[class*="language-"].theme-okaidia {color: #f8f8f2;background: none;text-shadow: 0 1px rgba(0,0,0,.3);font-family: Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;font-size: 1em;text-align: left;white-space: pre;word-spacing: normal;word-break: normal;word-wrap: normal;line-height: 1.5;-moz-tab-size: 4;-o-tab-size: 4;tab-size: 4;-webkit-hyphens: none;-moz-hyphens: none;-ms-hyphens: none;hyphens: none;}
+pre[class*="language-"].theme-okaidia {padding: 1em;margin: .5em 0;overflow: auto;border-radius: .3em;}
+pre[class*="language-"].theme-okaidia {background: #272822;}
+pre.theme-okaidia .token.comment, pre.theme-okaidia .token.prolog, pre.theme-okaidia .token.doctype, pre.theme-okaidia .token.cdata {color: #8292a2;}
+pre.theme-okaidia .token.punctuation {color: #f8f8f2;}
+pre.theme-okaidia .token.namespace {opacity: .7;}
+pre.theme-okaidia .token.property, pre.theme-okaidia .token.tag, pre.theme-okaidia .token.constant, pre.theme-okaidia .token.symbol, pre.theme-okaidia .token.deleted {color: #f92672;}
+pre.theme-okaidia .token.boolean, pre.theme-okaidia .token.number {color: #ae81ff;}
+pre.theme-okaidia .token.selector, pre.theme-okaidia .token.attr-name, pre.theme-okaidia .token.string, pre.theme-okaidia .token.char, pre.theme-okaidia .token.builtin, pre.theme-okaidia .token.inserted {color: #a6e22e;}
+pre.theme-okaidia .token.operator, pre.theme-okaidia .token.entity, pre.theme-okaidia .token.url, pre.theme-okaidia .language-css .token.string, pre.theme-okaidia .style .token.string, pre.theme-okaidia .token.variable {color: #f8f8f2;}
+pre.theme-okaidia .token.atrule, pre.theme-okaidia .token.attr-value, pre.theme-okaidia .token.function, pre.theme-okaidia .token.class-name {color: #e6db74;}
+pre.theme-okaidia .token.keyword {color: #66d9ef;}
+pre.theme-okaidia .token.regex, pre.theme-okaidia .token.important {color: #fd971f;}
+pre.theme-okaidia .token.important, pre.theme-okaidia .token.bold {font-weight: bold;}
+pre.theme-okaidia .token.italic {font-style: italic;}
+pre.theme-okaidia .token.entity {cursor: help;}
+pre[class*="language-"].theme-okaidia.line-numbers {position: relative;padding-left: 3.8em;counter-reset: linenumber;}
+pre[class*="language-"].theme-okaidia.line-numbers > code {position: relative;white-space: inherit;}
+pre.theme-okaidia.line-numbers .line-numbers-rows {position: absolute;pointer-events: none;top: 0;font-size: 100%;left: -3.8em;width: 3em;letter-spacing: -1px;border-right: 1px solid #999;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+pre.theme-okaidia .line-numbers-rows > span {display: block;counter-increment: linenumber;}
+pre.theme-okaidia .line-numbers-rows > span:before {content: counter(linenumber);color: #999;display: block;padding-right: .8em;text-align: right;}
